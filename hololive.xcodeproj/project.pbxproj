@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B0B469B25344047000CA7B1 /* LiveListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0B469A25344047000CA7B1 /* LiveListModel.swift */; };
+		8B0B469F25344080000CA7B1 /* LiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0B469E25344080000CA7B1 /* LiveModel.swift */; };
+		8B1B15192525C4470019FC84 /* VTuberDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B15182525C4470019FC84 /* VTuberDetailView.swift */; };
+		8B1B151E2525C4860019FC84 /* VTuberListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B151D2525C4860019FC84 /* VTuberListModel.swift */; };
+		8B1B15222525C4A80019FC84 /* VTuberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B15212525C4A80019FC84 /* VTuberModel.swift */; };
+		8B1B15292525CBD30019FC84 /* VTuberDetailStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B15282525CBD30019FC84 /* VTuberDetailStore.swift */; };
+		8B41A3512547F93D0034F98E /* FunVideoListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41A3502547F93D0034F98E /* FunVideoListStore.swift */; };
+		8B41A3582547FDAE0034F98E /* FunVideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41A3572547FDAE0034F98E /* FunVideoListView.swift */; };
+		8B41A35C254804A20034F98E /* FunVideoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41A35B254804A20034F98E /* FunVideoListModel.swift */; };
+		8B41A360254806F00034F98E /* LiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41A35F254806F00034F98E /* LiveType.swift */; };
+		8B528EE82552A07700B2D093 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B528EE72552A07700B2D093 /* Constants.swift */; };
+		8BE3B89B254953F000887FB4 /* MainTabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B89A254953F000887FB4 /* MainTabType.swift */; };
+		8BEE4D7E252469AC003C04DC /* hololiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE4D7D252469AC003C04DC /* hololiveApp.swift */; };
+		8BEE4D80252469AC003C04DC /* VTuberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE4D7F252469AC003C04DC /* VTuberListView.swift */; };
+		8BEE4D82252469AC003C04DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEE4D81252469AC003C04DC /* Assets.xcassets */; };
+		8BEE4D85252469AC003C04DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEE4D84252469AC003C04DC /* Preview Assets.xcassets */; };
+		8BEE4DBF25246CCD003C04DC /* VTuberListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE4DBE25246CCD003C04DC /* VTuberListStore.swift */; };
+		8BFFF6A0253494E3008C87F4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFF69F253494E3008C87F4 /* MainView.swift */; };
+		8BFFF6A3253495A8008C87F4 /* LiveListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFF6A2253495A8008C87F4 /* LiveListStore.swift */; };
+		8BFFF6A6253495B9008C87F4 /* LiveListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFF6A5253495B9008C87F4 /* LiveListView.swift */; };
+		D92D357970528CC5314B244D /* Pods_hololive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015C25D918B872FED1D39C87 /* Pods_hololive.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B528F022552A5A100B2D093 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		015C25D918B872FED1D39C87 /* Pods_hololive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hololive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D261C5FB62D8A96C3D3687 /* Pods-hololive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hololive.release.xcconfig"; path = "Target Support Files/Pods-hololive/Pods-hololive.release.xcconfig"; sourceTree = "<group>"; };
+		2D408A04530274213EECE000 /* Pods-hololive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hololive.debug.xcconfig"; path = "Target Support Files/Pods-hololive/Pods-hololive.debug.xcconfig"; sourceTree = "<group>"; };
+		75122B4DB28DC98E36E2F518 /* Pods-hololiveWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hololiveWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-hololiveWidgetExtension/Pods-hololiveWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		8A08CE30228A3F2A8D68613C /* Pods_hololiveWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hololiveWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0B469A25344047000CA7B1 /* LiveListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListModel.swift; sourceTree = "<group>"; };
+		8B0B469E25344080000CA7B1 /* LiveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveModel.swift; sourceTree = "<group>"; };
+		8B1B15182525C4470019FC84 /* VTuberDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTuberDetailView.swift; sourceTree = "<group>"; };
+		8B1B151D2525C4860019FC84 /* VTuberListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTuberListModel.swift; sourceTree = "<group>"; };
+		8B1B15212525C4A80019FC84 /* VTuberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTuberModel.swift; sourceTree = "<group>"; };
+		8B1B15282525CBD30019FC84 /* VTuberDetailStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTuberDetailStore.swift; sourceTree = "<group>"; };
+		8B41A3502547F93D0034F98E /* FunVideoListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunVideoListStore.swift; sourceTree = "<group>"; };
+		8B41A3572547FDAE0034F98E /* FunVideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunVideoListView.swift; sourceTree = "<group>"; };
+		8B41A35B254804A20034F98E /* FunVideoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunVideoListModel.swift; sourceTree = "<group>"; };
+		8B41A35F254806F00034F98E /* LiveType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveType.swift; sourceTree = "<group>"; };
+		8B528EE72552A07700B2D093 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B528EEF2552A59F00B2D093 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8B528EF12552A59F00B2D093 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8BE3B89A254953F000887FB4 /* MainTabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabType.swift; sourceTree = "<group>"; };
+		8BEE4D7A252469AC003C04DC /* hololive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hololive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEE4D7D252469AC003C04DC /* hololiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hololiveApp.swift; sourceTree = "<group>"; };
+		8BEE4D7F252469AC003C04DC /* VTuberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTuberListView.swift; sourceTree = "<group>"; };
+		8BEE4D81252469AC003C04DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BEE4D84252469AC003C04DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BEE4D86252469AC003C04DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEE4DBE25246CCD003C04DC /* VTuberListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTuberListStore.swift; sourceTree = "<group>"; };
+		8BFFF69F253494E3008C87F4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8BFFF6A2253495A8008C87F4 /* LiveListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListStore.swift; sourceTree = "<group>"; };
+		8BFFF6A5253495B9008C87F4 /* LiveListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListView.swift; sourceTree = "<group>"; };
+		9DEE049CDD3B4204510545C4 /* Pods-hololiveWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hololiveWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-hololiveWidgetExtension/Pods-hololiveWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BEE4D77252469AC003C04DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92D357970528CC5314B244D /* Pods_hololive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B1B15272525CB720019FC84 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8B41A36425480A0E0034F98E /* Main */,
+				8B1B15182525C4470019FC84 /* VTuberDetailView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		8B41A36425480A0E0034F98E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFF69F253494E3008C87F4 /* MainView.swift */,
+				8BEE4D7F252469AC003C04DC /* VTuberListView.swift */,
+				8BFFF6A5253495B9008C87F4 /* LiveListView.swift */,
+				8B41A3572547FDAE0034F98E /* FunVideoListView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8B41A36525480A220034F98E /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				8B41A35F254806F00034F98E /* LiveType.swift */,
+				8BE3B89A254953F000887FB4 /* MainTabType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		8B41A36B25480AA60034F98E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B1B151D2525C4860019FC84 /* VTuberListModel.swift */,
+				8B1B15212525C4A80019FC84 /* VTuberModel.swift */,
+				8B0B469A25344047000CA7B1 /* LiveListModel.swift */,
+				8B0B469E25344080000CA7B1 /* LiveModel.swift */,
+				8B41A35B254804A20034F98E /* FunVideoListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B41A36C25480AB40034F98E /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				8BEE4DBE25246CCD003C04DC /* VTuberListStore.swift */,
+				8B1B15282525CBD30019FC84 /* VTuberDetailStore.swift */,
+				8BFFF6A2253495A8008C87F4 /* LiveListStore.swift */,
+				8B41A3502547F93D0034F98E /* FunVideoListStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		8BEE4D71252469AC003C04DC = {
+			isa = PBXGroup;
+			children = (
+				8BEE4D7C252469AC003C04DC /* hololive */,
+				8BEE4D7B252469AC003C04DC /* Products */,
+				B4B5DB24C07154D1919D7117 /* Pods */,
+				B44DD2C92334ADE760EA50FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BEE4D7B252469AC003C04DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BEE4D7A252469AC003C04DC /* hololive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BEE4D7C252469AC003C04DC /* hololive */ = {
+			isa = PBXGroup;
+			children = (
+				8B41A36C25480AB40034F98E /* Store */,
+				8B41A36B25480AA60034F98E /* Model */,
+				8B41A36525480A220034F98E /* Enum */,
+				8B1B15272525CB720019FC84 /* Screen */,
+				8BEE4D7D252469AC003C04DC /* hololiveApp.swift */,
+				8BEE4D81252469AC003C04DC /* Assets.xcassets */,
+				8BEE4D86252469AC003C04DC /* Info.plist */,
+				8BEE4D83252469AC003C04DC /* Preview Content */,
+				8B528EE72552A07700B2D093 /* Constants.swift */,
+			);
+			path = hololive;
+			sourceTree = "<group>";
+		};
+		8BEE4D83252469AC003C04DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BEE4D84252469AC003C04DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B44DD2C92334ADE760EA50FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				015C25D918B872FED1D39C87 /* Pods_hololive.framework */,
+				8B528EEF2552A59F00B2D093 /* WidgetKit.framework */,
+				8B528EF12552A59F00B2D093 /* SwiftUI.framework */,
+				8A08CE30228A3F2A8D68613C /* Pods_hololiveWidgetExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4B5DB24C07154D1919D7117 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D408A04530274213EECE000 /* Pods-hololive.debug.xcconfig */,
+				10D261C5FB62D8A96C3D3687 /* Pods-hololive.release.xcconfig */,
+				75122B4DB28DC98E36E2F518 /* Pods-hololiveWidgetExtension.debug.xcconfig */,
+				9DEE049CDD3B4204510545C4 /* Pods-hololiveWidgetExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BEE4D79252469AC003C04DC /* hololive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEE4D9F252469AD003C04DC /* Build configuration list for PBXNativeTarget "hololive" */;
+			buildPhases = (
+				974BACF9405D1D688711DB22 /* [CP] Check Pods Manifest.lock */,
+				8BEE4D76252469AC003C04DC /* Sources */,
+				8BEE4D77252469AC003C04DC /* Frameworks */,
+				8BEE4D78252469AC003C04DC /* Resources */,
+				FD6C484B3139D1D22FF869A4 /* [CP] Embed Pods Frameworks */,
+				8B528F022552A5A100B2D093 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hololive;
+			productName = hololive;
+			productReference = 8BEE4D7A252469AC003C04DC /* hololive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BEE4D72252469AC003C04DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8BEE4D79252469AC003C04DC = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8BEE4D75252469AC003C04DC /* Build configuration list for PBXProject "hololive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BEE4D71252469AC003C04DC;
+			productRefGroup = 8BEE4D7B252469AC003C04DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BEE4D79252469AC003C04DC /* hololive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BEE4D78252469AC003C04DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEE4D85252469AC003C04DC /* Preview Assets.xcassets in Resources */,
+				8BEE4D82252469AC003C04DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		974BACF9405D1D688711DB22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hololive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD6C484B3139D1D22FF869A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hololive/Pods-hololive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hololive/Pods-hololive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hololive/Pods-hololive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BEE4D76252469AC003C04DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEE4D80252469AC003C04DC /* VTuberListView.swift in Sources */,
+				8BE3B89B254953F000887FB4 /* MainTabType.swift in Sources */,
+				8B0B469F25344080000CA7B1 /* LiveModel.swift in Sources */,
+				8B1B15222525C4A80019FC84 /* VTuberModel.swift in Sources */,
+				8BFFF6A0253494E3008C87F4 /* MainView.swift in Sources */,
+				8BFFF6A6253495B9008C87F4 /* LiveListView.swift in Sources */,
+				8BEE4DBF25246CCD003C04DC /* VTuberListStore.swift in Sources */,
+				8B0B469B25344047000CA7B1 /* LiveListModel.swift in Sources */,
+				8B1B151E2525C4860019FC84 /* VTuberListModel.swift in Sources */,
+				8B41A35C254804A20034F98E /* FunVideoListModel.swift in Sources */,
+				8BEE4D7E252469AC003C04DC /* hololiveApp.swift in Sources */,
+				8B41A3512547F93D0034F98E /* FunVideoListStore.swift in Sources */,
+				8B41A360254806F00034F98E /* LiveType.swift in Sources */,
+				8B1B15192525C4470019FC84 /* VTuberDetailView.swift in Sources */,
+				8B1B15292525CBD30019FC84 /* VTuberDetailStore.swift in Sources */,
+				8B41A3582547FDAE0034F98E /* FunVideoListView.swift in Sources */,
+				8BFFF6A3253495A8008C87F4 /* LiveListStore.swift in Sources */,
+				8B528EE82552A07700B2D093 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BEE4D9D252469AD003C04DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BEE4D9E252469AD003C04DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BEE4DA0252469AD003C04DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D408A04530274213EECE000 /* Pods-hololive.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"hololive/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UDDAW9F32;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = hololive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nsproject.hololive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8BEE4DA1252469AD003C04DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D261C5FB62D8A96C3D3687 /* Pods-hololive.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"hololive/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UDDAW9F32;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = hololive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nsproject.hololive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BEE4D75252469AC003C04DC /* Build configuration list for PBXProject "hololive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEE4D9D252469AD003C04DC /* Debug */,
+				8BEE4D9E252469AD003C04DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEE4D9F252469AD003C04DC /* Build configuration list for PBXNativeTarget "hololive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEE4DA0252469AD003C04DC /* Debug */,
+				8BEE4DA1252469AD003C04DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BEE4D72252469AC003C04DC /* Project object */;
+}
